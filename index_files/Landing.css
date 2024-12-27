@@ -1,0 +1,172 @@
+/* 전체 적용 */
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+li {
+  list-style: none;
+}
+body {
+  background-color: #222222;
+}
+#wrap {
+  max-width: 818px;
+  /* background-color: #FFFEF0; */
+}
+.DB {
+  position: relative;
+}
+.img13 {
+  margin-left: 1.5%;
+}
+.img14 {
+  margin-left: -31%;
+}
+.input-bg {
+  position: relative;
+}
+.input {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 78%;
+  height: 60%;
+  /* border: 1px solid red; */
+}
+.input-box {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.sel{
+  width: 100%;
+  height: 23%;
+}
+.sel select {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 30px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+option {
+  background: none;
+}
+.top,
+.mid {
+  width: 100%;
+  height: 30%;
+  /* border: 1px solid blue; */
+  align-items: center;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.top input {
+  width: 49%;
+  height: 80%;
+  text-align: center;
+  font-size: 30px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.mid input {
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  font-size: 30px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.bottom {
+  width: 100%;
+  height: 40%;
+  /* border: 2px solid green; */
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bottom img {
+  cursor: pointer;
+}
+.chk,
+.chk label,
+.chk label input {
+  cursor: pointer;
+}
+.chk label input {
+  width: 20px;
+  height: 20px;
+}
+.chk span {
+  font-weight: bold;
+}
+#data-list-wrapper {
+  position: relative;
+}
+#data-list {
+  width: 90%;
+  height: 85%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 86%;
+  left: 50%;
+  text-align: center;
+  font-size: 25px;
+  overflow: hidden;
+}
+#data-list li {
+  display: flex;
+  width: 100%;
+  left: 0%;
+  margin-left: -3%;
+  border-bottom: 1px solid rgb(218, 218, 218);
+}
+#data-list li span {
+  width: 100%;
+}
+@media screen and (max-width:818px) {
+  .chk {
+    font-size: 2.5vw;
+  }
+  .chk label input {
+    width: 2.5vw;
+    height: 2.5vw;
+  }
+  .top input,
+  .mid input {
+    font-size: 4vw;
+    border-radius: 1vw;
+    border: 0.3vw solid black;
+  }
+  #data-list {
+    font-size: 3vw;
+  }
+  .date span {
+    font-size: 3.7vw;
+    line-height: 7.5vw;
+  }
+  .select select {
+    font-size: 4vw;
+    border: 0.3vw solid black;
+    border-radius: 1vw;
+  }
+  video {
+    margin-bottom: -2.5%;
+  }
+}
